@@ -99,7 +99,7 @@ ol{
 .footer-container {
     padding: 50px 270px;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, minmax(200px, 1fr));
     gap: 50px;
   }
 
@@ -156,13 +156,17 @@ ol{
     gap: 30px;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1500px){
     .footer-container {
         grid-template-columns: repeat(2, 1fr);
         max-width: 1000px;
         margin: 0 auto;
         padding: 50px 100px;
         gap: 20px;
+    }
+
+    .footer-bottom{
+        padding: 60px 0;
     }
 
     @media screen and (max-width: 800px){
