@@ -32,7 +32,7 @@ ol{
     font-family: "DM+Sans", sans-serif;
     font-size: 28px;
     position: relative;
-    display: inline-block; /* or inline-flex depending on your needs */
+    display: inline-block;
     cursor: pointer;
 }
   
@@ -97,7 +97,7 @@ ol{
 }
 
 .footer-container {
-    padding: 50px 0;
+    padding: 50px 270px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 50px;
@@ -137,7 +137,7 @@ ol{
 }
 
 .footer-bottom{
-    padding: 60px 25px;
+    padding: 60px 270px;
     display: flex;
     align-items: center;
     justify-content: space-between;
